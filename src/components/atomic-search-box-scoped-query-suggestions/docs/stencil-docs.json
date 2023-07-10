@@ -1,0 +1,114 @@
+{
+  "timestamp": "2023-07-10T21:12:53",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.22.2",
+    "typescriptVersion": "4.9.4"
+  },
+  "components": [
+    {
+      "filePath": "./src/atomic-search-box-scoped-query-suggestions.tsx",
+      "encapsulation": "shadow",
+      "tag": "atomic-search-box-scoped-query-suggestions",
+      "docs": "The `atomic-search-box-query-suggestions` component can be added as a child of an `atomic-search-box` component, allowing for the configuration of query suggestion behavior.",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "field",
+          "type": "string",
+          "mutable": false,
+          "attr": "field",
+          "reflectToAttr": true,
+          "docs": "The field by which suggestions will be provided.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": true,
+          "required": false
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "mutable": false,
+          "attr": "icon",
+          "reflectToAttr": false,
+          "docs": "The SVG icon to display.\n\n- Use a value that starts with `http://`, `https://`, `./`, or `../`, to fetch and display an icon from a given location.\n- Use a value that starts with `assets://`, to display an icon from the Atomic package.\n- Use a stringified SVG to display it directly.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": true,
+          "required": false
+        },
+        {
+          "name": "maxWithQuery",
+          "type": "number",
+          "mutable": false,
+          "attr": "max-with-query",
+          "reflectToAttr": true,
+          "docs": "The maximum number of suggestions that will be displayed if the user has typed something into the input field.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": true,
+          "required": false
+        },
+        {
+          "name": "maxWithoutQuery",
+          "type": "number",
+          "mutable": false,
+          "attr": "max-without-query",
+          "reflectToAttr": true,
+          "docs": "The maximum number of suggestions that will be displayed initially when the input field is empty.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": true,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "field-suggestion-content",
+          "docs": ""
+        },
+        {
+          "name": "field-suggestion-text",
+          "docs": ""
+        },
+        {
+          "name": "query-suggestion-content",
+          "docs": ""
+        },
+        {
+          "name": "query-suggestion-icon",
+          "docs": ""
+        },
+        {
+          "name": "query-suggestion-text",
+          "docs": ""
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    }
+  ]
+}
